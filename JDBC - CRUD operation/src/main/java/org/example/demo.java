@@ -6,7 +6,7 @@ public class demo {
     public static void main(String[] args) throws Exception {
         String url="jdbc:postgresql://localhost:5432/Studentdetails";
         String username="postgres";
-        String password="root78";
+        String password="root";
        Connection con=DriverManager.getConnection(url,username,password);
        System.out.println("connected");
        /*
